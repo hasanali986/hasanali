@@ -1,4 +1,4 @@
-
+/*
 window.onload = function () {
     var el = document.getElementById('ScribbleMap');
     var sm = new ScribbleMap(el);
@@ -32,7 +32,7 @@ window.onload = function () {
 
 };
 
-
+*/
 
 
 
