@@ -1,29 +1,12 @@
-<html>
 <head>
- 
     <script>
-        window.scribblemaps = {
-            settings: {
-                baseAPI: "google",
-                key: 'AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk'
-            }
-        };
- 
- 
-        var loadmap = function () {
-            var sm = new scribblemaps.ScribbleMap(document.getElementById('ScribbleMap'),{ 
-     startCenter: {lat: 38.5,lng: 36}, 
-    startZoom: 5               
-                
-                }
-            );
+        var loadmap = function() {
+            var sm = new scribblemaps.ScribbleMap(document.getElementById('ScribbleMap'));
         }
     </script>
- 
-    <script src="//www.scribblemaps.com/api/js?callback=loadmap" async></script>
+    <script src="//scribblemaps.com/api/js/?callback=loadmap" async></script>
 </head>
- 
+
 <body>
-    <div id="ScribbleMap" style="width: 730px; height: 500px"></div>
+    <div id="ScribbleMap" style="width: 500px; height: 500px"></div>
 </body>
-</html>
