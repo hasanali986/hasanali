@@ -35,7 +35,7 @@ window.onload = function () {
 */
 
 
-
+/*
 var markers = [
 coords = {lat: 36.9914, lng: 35.3308},
 coords = {lat: 37.7639, lng: 38.2775},
@@ -119,7 +119,7 @@ coords = {lat: 38.5012, lng: 43.373},
 coords = {lat: 40.6549, lng: 29.2842},
 coords = {lat: 39.821, lng: 34.8086},
 coords = {lat: 41.4535, lng: 31.7894}
-*/
+*//*
 ]; 
       for(var i = 0;i < markers.length;i++){
         // Add marker
@@ -128,3 +128,5 @@ coords = {lat: 41.4535, lng: 31.7894}
 function addMarker(coords){
 sm.draw.marker(coords);
 }  
+*/
+sm.draw.mediaMarker({lat: 36.3524, lng: 36.2935});
