@@ -1,3 +1,5 @@
+alert("I am an alert box!");
+
 /*
 window.onload = function () {
     var el = document.getElementById('ScribbleMap');
@@ -128,5 +130,5 @@ coords = {lat: 41.4535, lng: 31.7894}
 function addMarker(coords){
 sm.draw.marker(coords);
 }  
-*/
-sm.draw.marker([36.3524, 36.2935]);
+
+sm.draw.marker([36.3524, 36.2935]);*/
