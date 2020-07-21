@@ -129,4 +129,4 @@ function addMarker(coords){
 sm.draw.marker(coords);
 }  
 */
-sm.draw.mediaMarker([36.3524, 36.2935]);
+sm.draw.marker([36.3524, 36.2935]);
