@@ -1,8 +1,8 @@
 alert("I am an alert box!");
 
 var sm = new scribblemaps.ScribbleMap(document.getElementById('ScribbleMap'),{ 
-     startCenter: {lat: 38.5,lng: 36}, 
-    startZoom: 6            
+     startCenter: {lat: 20,lng: 20}, 
+    startZoom: 3            
                 
                 }
 sm.draw.marker([36.3524, 36.2935]);;
