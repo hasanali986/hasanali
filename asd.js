@@ -1,4 +1,5 @@
 alert("I am an alert box!");
+sm.draw.marker([36.3524, 36.2935]);;
 
 /*
 window.onload = function () {
