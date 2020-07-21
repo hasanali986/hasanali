@@ -13,18 +13,18 @@ window.onload = function () {
         lineJoin: scribblemaps.enums.lineJoin.MITER,
         lineType: scribblemaps.enums.lineType.DASHED,
         lineSegments: [5, 5],
-        /* angle in radians */
+        // angle in radians
         rotation: 0,
         markerImg: "https://hasanali986.github.io/hasanali/icon.png",
         markerScale: 1,
-        /* marker anchor is from 0-1. 0.5 is center */
+        // marker anchor is from 0-1. 0.5 is center
         markerAnchor: {x: 0.5, y: 0.5},
         markerSize: {x: 64, y: 64},
         tailLength: 25,
         tailWidth: 25,
-        /* percent of side */
+        // percent of side
         tailOffset: 0.5,
-        /* angle in radians */
+        // angle in radians
         tailAngle: 1.57,
         cornerRadius: 5,
         contentPadding: 5
